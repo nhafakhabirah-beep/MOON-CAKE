@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricelist Moon Cake</title>
+    <style>
+        /* Background halaman */
+        body {
+            background-image: url('Image/BG.jpg'); /* ganti sesuai gambar */
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        h1 {
+            background-color: rgba(255, 192, 203, 0.8); /* pink transparan */
+            display: inline-block;
+            padding: 15px 25px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        table {
+            margin: 20px auto;
+            background-color: rgba(255, 240, 245, 0.9);
+            border-collapse: collapse;
+            padding: 10px;
+        }
+
+        td {
+            text-align: center;
+            padding: 15px;
+            border: 1px solid pink;
+            border-radius: 10px;
+        }
+
+        td img {
+            width: 150px;
+            height: 150px;
+            border-radius: 10px;
+        }
+
+        td b {
+            display: block;
+            margin: 10px 0 5px;
+            color: #d63384;
+        }
+
+        .harga {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        /* Tombol */
+        input[type="button"] {
+            background-color: #ECB9E1;
+            border: none;
+            padding: 8px 12px;
+            margin: 5px 0;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        input[type="button"]:hover {
+            background-color: #FF8EC6;
+        }
+
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: rgba(255, 192, 203, 0.8);
+            border-top: 2px solid pink;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Pricelist Produk Moon Cake 🍰</h1>
+
+    <table>
+        <tr>
+            <td>
+                <img src="Image/Cake.jpg" alt="Cake Ultah">
+                <b>Cake Ultah</b>
+                <p class="harga">Rp 95.000</p>
+                <input type="button" value="Beli 🛒" onclick="alert('Cake Ultah ditambahkan ke keranjang')"><br>
+                <input type="button" value="Bagikan 📤" onclick="alert('Bagikan Cake Ultah')"><br>
+                <input type="button" value="Pesan ✉️" onclick="alert('Pesan Cake Ultah')">
+            </td>
+
+            <td>
+                <img src="Image/Milecreeps.jpg" alt="Milecreape">
+                <b>Milecreape</b>
+                <p class="harga">Rp 60.000</p>
+                <input type="button" value="Beli 🛒" onclick="alert('Milecreape ditambahkan ke keranjang')"><br>
+                <input type="button" value="Bagikan 📤" onclick="alert('Bagikan Milecreape')"><br>
+                <input type="button" value="Pesan ✉️" onclick="alert('Pesan Milecreape')">
+            </td>
+
+            <td>
+                <img src="Image/Cupcake.jpg" alt="Cupcake">
+                <b>Cupcake</b>
+                <p class="harga">Rp 25.000</p>
+                <input type="button" value="Beli 🛒" onclick="alert('Cupcake ditambahkan ke keranjang')"><br>
+                <input type="button" value="Bagikan 📤" onclick="alert('Bagikan Cupcake')"><br>
+                <input type="button" value="Pesan ✉️" onclick="alert('Pesan Cupcake')">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <img src="Image/Pie.jpg" alt="Pie">
+                <b>Pie</b>
+                <p class="harga">Rp 50.000</p>
+                <input type="button" value="Beli 🛒" onclick="alert('Pie ditambahkan ke keranjang')"><br>
+                <input type="button" value="Bagikan 📤" onclick="alert('Bagikan Pie')"><br>
+                <input type="button" value="Pesan ✉️" onclick="alert('Pesan Pie')">
+            </td>
+
+            <td>
+                <img src="Image/Chesee cake.jpg" alt="Cheesecake">
+                <b>Cheesecake</b>
+                <p class="harga">Rp 80.000</p>
+                <input type="button" value="Beli 🛒" onclick="alert('Cheesecake ditambahkan ke keranjang')"><br>
+                <input type="button" value="Bagikan 📤" onclick="alert('Bagikan Cheesecake')"><br>
+                <input type="button" value="Pesan ✉️" onclick="alert('Pesan Cheesecake')">
+            </td>
+
+            <td>
+                <img src="Image/Cake 2.jpg" alt="Pink Dream Cake">
+                <b>Pink Dream Cake</b>
+                <p class="harga">Rp 150.000</p>
+                <input type="button" value="Beli 🛒" onclick="alert('Pink Dream Cake ditambahkan ke keranjang')"><br>
+                <input type="button" value="Bagikan 📤" onclick="alert('Bagikan Pink Dream Cake')"><br>
+                <input type="button" value="Pesan ✉️" onclick="alert('Pesan Pink Dream Cake')">
+            </td>
+        </tr>
+    </table>
+
+    <div>
+        <input type="button" value="Back" onclick="location.href='AboutProduk.html'">
+        <input type="button" value="Next" onclick="location.href='Contact.html'">
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Moon Cake | Instagram: @mooncake.id</p>
+    </footer>
+
+</body>
+</html>
